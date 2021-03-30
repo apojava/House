@@ -1,0 +1,260 @@
+
+/*---------- produc-main ---------*/
+#main .product-main {	
+	width:980px;
+	height:430px;
+	margin:5px auto;
+	border:2px solid #aaa;
+	overflow:hidden;
+}
+
+#main .product-main .title {
+    width:840px;
+	float:left;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 0 -5px 0;
+}
+
+#main .product-main .left-big {	
+	float:left;
+	width:410px;
+	height:370px;
+	margin:10px;
+	border:3px solid #aaa;
+}
+
+.left-big #icon {	
+	width:405px;
+	height:365px;
+}
+
+#main .product-main .right-info {	
+	float:right;
+	margin-right:3px;
+	width:452px;
+	height:390px;
+	--background-color: #aaa;
+	--border:2px solid #aaa;
+}
+
+#main .product-main .right-info div {	
+	margin:5px;
+}
+
+.right-info .name {
+	float:left;
+	font-size: 18px;
+	font-weight: bold;
+	width:272px;
+}
+
+.right-info .productNO {
+	float:right;
+	width:170px;
+	text-align:right;
+}
+
+.right-info .shopname span {
+	display:inline-block;
+	width:200px;
+}
+
+ .markprice {
+	color:#666;
+}
+
+ .markprice span {
+	text-decoration:line-through;
+}
+
+ .saleprice {
+	color:#CC0000;
+}	
+
+.purchase {
+	margin:5px;
+	height:220px;
+	background-color: #ddd;
+}
+
+.purchaseoption {
+	margin:15px;
+}
+
+.purchase .choised {	
+	height:40px;
+	line-height:40px;
+}
+
+.purchase .purchase-button {
+    background: url("../images/base/purchase-button.png") no-repeat scroll transparent;
+    border: medium none;
+    float: left;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    width: 204px;
+}
+
+/*---------- product-info ---------*/
+#main .product-info {	
+	width:980px;
+	margin:5px auto;
+	border:2px solid #aaa;
+	overflow:hidden;
+}
+
+#main .product-info .list-left {
+	width:125px;
+	float:left;
+	margin: 2px;
+	border:2px solid #aaa;
+	overflow:hidden;
+}
+
+.list-left .left1 {
+	float:left;
+	margin-bottom: 15px;
+	overflow:hidden;
+}
+
+#main .product-info .product-deltail {
+	width:820px;
+	float:right;
+	margin: 10px;
+	border:2px solid red;
+	overflow:hidden;
+}
+
+.product-deltail .prdduct-relation {
+	float:left;
+	width:800px;
+	height:30px;
+	line-height:30px;
+	border-bottom:3px solid red;
+}
+
+.prdduct-relation div {
+	float:left;
+	width:150px;
+	margin:0 5px;
+	text-align: center;
+	border:1px solid blue;
+}
+
+.product-deltail .description {
+	width:800px;
+	height:160px;
+	float:left;
+	border:2px solid #aaa;
+}
+
+.product-deltail .attribute {
+	width:800px;
+	float:left;
+	border:2px solid #aaa;
+}
+
+.product-deltail .washinstruction {
+	width:800px;
+	height:160px;
+	float:left;
+	border:2px solid #aaa;
+}
+
+.product-deltail .imageshow {
+	float:left;
+	border:2px solid #aaa;
+}
+
+
+/*---------------tbox  ---------------*/
+.tbox{
+	float: left;
+	text-align:center;
+	margin: 4px;
+	width:200px;
+	font-size: 14px;
+	overflow:hidden;
+}
+
+.tbox .markprice {
+	color:#666;
+}
+
+.tbox .markprice span {
+	text-decoration:line-through;
+}
+
+.tbox .saleprice {
+	color:#CC0000;
+}
+
+
+/*--------------- comment  ---------------*/
+.comment {
+	float: left;
+	width: 800px;
+	border: 1px solid #c0c0c0;
+	padding: 0px;
+	margin: 0px;
+}
+#reply {
+	float: left;
+	width: 800px;
+	border-bottom: 1px solid #c0c0c0;
+}
+.comment .name{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #c0c0c0;
+	border-top: 1px solid #c0c0c0;
+	background: url("../images/blue_skin.png") repeat-x scroll 0px -188px transparent;
+}
+.comment .name div {
+	height: 24px;
+	line-height: 24px;
+}
+.content2 {
+	width: 800px;
+	float: left;
+}
+.content2 div {
+	padding: 10px;
+}
+.time {
+	position: relative;
+	float: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#reply #cinput {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 710px;
+	width: 80px;
+ 	background-color: #FFFFFF;
+ 	border-radius: 5px;
+ 	border: 1px solid #c0c0c0;
+}
+.re-text {
+	width: 100%;
+	background: url("images/blue_skin.png") repeat-x scroll 0px -188px transparent;
+	height: 24px;
+	line-height: 24px;
+}
+.nrright {
+	padding-bottom: 30px;
+}
+.page {
+	float: left;
+	padding: 5px;
+	margin-left: 530px;
+}
+

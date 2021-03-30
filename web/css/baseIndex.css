@@ -1,0 +1,227 @@
+﻿html,body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+a,span {
+	text-decoration: none;
+	color: #757575;
+}
+
+a:hover {
+	color: #CD2626;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	padding: 5px;
+}
+
+#header .left {
+	position: relative;
+	float: left;
+}
+
+#header .right {
+	position: relative;
+	float: right;
+	right: 20px;
+}
+
+#header .right div {
+	float: left;
+}
+
+#header .right .right-image {
+	background-image: url("images/gouwuche.png");
+	width: 18px;
+	height: 18px;
+}
+
+#header .right .right-text {
+	height: 21px;
+	line-height: 21px;
+	padding-left: 3px;
+}
+
+#header .right .right-text span b {
+	color: #CD2626;
+	font-size: 18px;
+}
+
+#header-image {
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+}
+
+#header-title div {
+	float: left;
+}
+
+#header-title .logo {
+	margin-left: 20px;
+	margin-top: 8px;
+}
+
+#header-title #search {
+	height: 35px;
+	line-height: 35px;
+	margin-top: 23px;
+	margin-left: 200px;
+}
+
+#header-title #search #inputbox {
+	width: 310px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	border: 2px solid #aaa;
+	padding: 3px 9px 0;
+}
+
+#header-title #search #search_button {
+	color: #FFFFFF;
+	background-color: #B22222;
+	cursor: pointer;
+	width: 106px;
+	height: 42px;
+	border: 2px solid red;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.title {
+	width: 960px;
+	height: 40px;
+	margin: 90px auto;
+	margin-bottom: 0px;
+	padding-left: 50px;
+	background-color: #B22222;
+}
+
+.title .selected {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+}
+
+.title .selected:hover {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #8B0000;
+}
+
+.title .noselected {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+}
+
+.title .noselected:hover {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #8B0000;
+}
+
+.title .button-right {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 42px;
+	color: #333333;
+}
+
+.list {
+	float: left;
+	width: 980px;
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 310px;
+	border: 3px solid #aaa;
+}
+
+.list .list-title {
+	height: 35px;
+	border-bottom: 3px solid #aaa;
+}
+
+.list .list-title .category {
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #B22222;
+}
+
+.list .list-title .subcat {
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-top: -32px;
+	margin-left: 870px;
+}
+
+.list .tbox {
+	float: left;
+	text-align: center;
+	width: 220px;
+	height: 260px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#footer {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-top: 2px solid #aaa;
+}
+
+.license {
+	color: #666666;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline;
+}
